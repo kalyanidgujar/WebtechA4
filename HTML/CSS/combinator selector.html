@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selector</title>
+    <style>
+        .container{
+            height: 500px;
+            width: 60%;
+            margin: auto;
+            border: 1px solid black;
+            background-color: beige;
+
+        }
+        .container h1{
+           background-color: purple;
+           color: white;
+
+        }
+        /* child selector */
+        .container>h1{
+            background-color: aqua;
+            color: red;
+        }
+        .container>div{
+            background-color: aquamarine;
+        }
+       .container #first .gchild >h1{
+        background-color: black;
+         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div id="first">
+        <div class="gchild">
+                  <h1>Good Morning</h1>
+        <p>Todays topic combinator selector</p>
+        <p>Hello everyone i am jiya how are you guys welcome to our css class</p>
+    </div>
+   
+       </div>
+        <div class="gchild">
+            <h1>It is very important to reduce code complexity.</h1>
+        </div>
+    </div>
+
+    
+</body>
+</html>
