@@ -1,0 +1,29 @@
+.nav-container{
+    height: 70px;
+    background-color: rgb(75, 75, 254);
+    color: white;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.nav-container-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    /* background-color: aliceblue; */
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menu ul li a svg{
+    color: white;
+}

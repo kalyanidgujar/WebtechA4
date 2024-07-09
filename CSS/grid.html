@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            height: 600px;
+           border: 1px solid black;
+           display: grid;
+           grid-template-rows: 140px 140px;
+           grid-template-columns: 300px 300px 300px;
+           gap: 20px;
+           row-gap: 20px;
+           column-gap: 20px;
+           align-content: center;
+           /* justify-content: space-between; */
+           padding-left: 100px;
+        
+           
+        }
+        .box{
+            height: 140px;
+            width:300px ;
+            border: 1px solid;
+
+
+        }
+        .box1{
+            background-color: blueviolet;
+            background-image:url('https://i.pinimg.com/originals/06/47/77/064777c36281ab3c389a445a5335f850.gif') ;
+        }
+        .box2{
+            background-color: rgb(179, 231, 172);
+            background-image: url('https://i.pinimg.com/originals/dc/07/7e/dc077ee7e67449fe37608e3ebdced1be.gif');
+        }
+        .box3{
+            /* background-color: rgb(176, 49, 93); */
+            background-image: url('https://media.tenor.com/nqQ0JTvnd0EAAAAj/flower.gif');
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+
+
+    </div>
+    
+</body>
+</html>

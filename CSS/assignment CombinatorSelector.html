@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selector</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            height: 700px;
+            background-color: skyblue;
+        }
+        .container h1{
+            background-color:purple;
+            color:white;
+            text-align: center;
+        }
+        div >.f1> h2{
+            background-color: blue;
+            color: aliceblue;
+            font-family:cursive;
+        }
+        div>.f1> h3{
+            background-color: yellow;
+            color: brown;
+            text-align: center;
+            border: 2px solid purple;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <fieldset class="f1">
+            <h1>CSS Combinators </h1>
+        </fieldset><br>
+        <fieldset class="f1">
+            <p>
+                <h2>A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.</h2><br>
+
+                <h3>There are four different combinators in CSS:</h3><br>
+
+                descendant selector (space)<br>
+                child selector (>)  <br>
+                adjacent sibling selector (+) <br>
+                general sibling selector (~) <br>
+
+            </p>
+
+        </fieldset>
+
+    </div>
+    
+</body>
+</html>
